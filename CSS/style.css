@@ -145,6 +145,16 @@ header
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
 }
+/* ETOILES */
+.star 
+{
+    font-size: 12px;
+    color:#0065FC;
+}
+.empty_star
+{
+    color:#F2F2F2
+}
 /* SECTION HEBERGEMENTS */
 .hebergements_cards
 {
@@ -185,11 +195,6 @@ header
 {
     font-size: 14px;
 }
-.star 
-{
-    font-size: 12px;
-    color:#0065FC;
-}
 .afficher_plus
 {
     margin-bottom: 30px;
@@ -200,6 +205,15 @@ header
     display:flex;
     align-items: center;
     justify-content: space-between;
+}
+.title
+{
+    font-size: 22px;
+}
+.icon_most_popular
+{
+    color: #0065FC;
+    width: 18px; 
 }
 .img_popular
 {
