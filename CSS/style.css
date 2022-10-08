@@ -16,21 +16,21 @@ body
     font-family: "Raleway"; 
 }
 /* HEADER */
-header
-{
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-}
 .logo_booki
 {
     width: 61.09px;
     height: 19px;
 }
+.navbar 
+{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
 .ul_navbar
 {
     display:flex;
-    width:100%;
+    justify-content: space-between;
 }
 .lien_nav
 {
