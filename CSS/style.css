@@ -10,7 +10,7 @@ li
 }
 body
 {
-    width: 95%;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 44px 0;
     font-family: "Raleway"; 
@@ -141,9 +141,14 @@ body
 /* LES DEUX GRANDES SECTIONS */
 #hebergements
 {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
+    display:flex;
+    justify-content: space-between;
+}
+.all_cards
+{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 10px 30px;
 }
 /* ETOILES */
 .star 
@@ -158,9 +163,7 @@ body
 /* SECTION HEBERGEMENTS */
 .hebergements_cards
 {
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    padding: 10px 30px;
+    width: 850px;
 }
 .marseille_cards
 {
@@ -200,6 +203,10 @@ body
     margin-bottom: 30px;
 }
 /* SECTION LES PLUS POPULAIRES */
+.most_popular_cards
+{
+    width: 390px;
+}
 .most_popular_title
 {
     display:flex;
