@@ -22,8 +22,8 @@
             </div>
             <div class="links">
                 <ul class="ul_navbar">
-                        <li><a href="#hebergements" class="lien_nav">Hébergements</a></li> 
-                        <li><a href="#activity" class="lien_nav">Activités</a></li>
+                        <li class="li_navbar"><a href="#hebergements" class="lien_nav underline_blue">Hébergements</a></li> 
+                        <li class="li_navbar"><a href="#activity" class="lien_nav">Activités</a></li>
                 </ul>
             </div>
         </nav>
@@ -42,17 +42,21 @@
                     </div>
                         <input type="text" placeholder="Marseille, France" class="research_bar">
                         <input type="submit" class="button_research" value="Rechercher">
-                        <button class="button_search_mobile"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <button class="button_search_mobile"><i class="fa-solid fa-magnifying-glass icon_search"></i></button>
             </form>
                 </div>
             <div class="filters">
                 <h3 class="filtres">Filtres</h3>
-                <ul class="ul_filters">
-                    <li class="list_filters"><a href="#" class="font_filters"><i class="fa-solid fa-money-bill-wave icon_filters"></i>Économique</a></li>
-                    <li class="list_filters"><a href="#" class="font_filters"><i class="fa-solid fa-person icon_filters"></i>Familial</a></li>
-                    <li class="list_filters"><a href="#" class="font_filters"><i class="fa-solid fa-heart icon_filters"></i>Romantique</a></li>
-                    <li class="list_filters"><a href="#" class="font_filters"><i class="fa-solid fa-dog icon_filters"></i>Animaux autorisés</a></li>
-                </ul>
+                <div class="container_ul_filters">
+                    <ul class="ul_filters first_ul_filters">
+                        <li class="list_filters"><a href="#" class="font_filters"><i class="fa-solid fa-money-bill-wave icon_filters"></i>Économique</a></li>
+                        <li class="list_filters"><a href="#" class="font_filters"><i class="fa-solid fa-person icon_filters"></i>Familial</a></li>
+                    </ul>
+                    <ul class="ul_filters second_ul_filters">
+                        <li class="list_filters"><a href="#" class="font_filters"><i class="fa-solid fa-heart icon_filters"></i>Romantique</a></li>
+                        <li class="list_filters"><a href="#" class="font_filters"><i class="fa-solid fa-dog icon_filters"></i>Animaux autorisés</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="info_sup">
                 <i class="fa-solid fa-circle-info icon_info_sup"></i>
@@ -245,23 +249,23 @@
             <div class="details_footer">
                 <h2 class="footer_title">À propos</h2>
                 <ul class="ul_footer">
-                    <li class="li_footer">Fonctionnement du site</li>
-                    <li class="li_footer">Conditions générales</li>
-                    <li class="li_footer">Données et confidentialité</li>
+                    <li class="li_footer"><a href="#">Fonctionnement du site</a></li>
+                    <li class="li_footer"><a href="#">Conditions générales</a></li>
+                    <li class="li_footer"><a href="#">Données et confidentialité</a></li>
                 </ul>
             </div>
             <div class="details_footer">
                 <h2 class="footer_title">Nos hébergements</h2>
                 <ul class="ul_footer">
-                    <li class="li_footer">Charte qualité</li>
-                    <li class="li_footer">Proposer votre hôtel</li>
+                    <li class="li_footer"><a href="#">Charte qualité</a></li>
+                    <li class="li_footer"><a href="#">Proposer votre hôtel</a></li>
                 </ul>
             </div>
             <div class="details_footer">
                 <h2 class="footer_title">Assistance</h2>
                 <ul class="ul_footer">
-                    <li class="li_footer">Centre d'aide</li>
-                    <li class="li_footer">Nous contacter</li>
+                    <li class="li_footer"><a href="#">Centre d'aide</a></li>
+                    <li class="li_footer"><a href="#">Nous contacter</a></li>
                 </ul>
             </div>
         </div>
