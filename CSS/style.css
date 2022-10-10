@@ -12,7 +12,7 @@ body
 {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 44px 0;
+    padding: 44px 0 0 0;
     font-family: "Raleway"; 
 }
 /* HEADER */
@@ -161,7 +161,6 @@ body
 .title
 {
     font-size: 22px;
-    padding-top: 10px;
 }
 /* ETOILES */
 .star 
@@ -264,4 +263,67 @@ body
 .card_popular:hover, .card_marseille:hover
 {
     transform: scale(1.01);
+}
+/* SECTION ACTIVITY */
+#activity
+{
+    margin-top: 60px;
+}
+.activity_cards
+{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.card_activity
+{
+   width: 302px;
+   border-radius: 20px;
+   box-shadow: 0px 3px 15px 1px #8A8A8A;
+   cursor: pointer;
+}
+.img_activity
+{
+    height: 389px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.container_title_activity
+{
+    display:flex;
+    margin-left: 20px;
+}
+.title_activity
+{
+    font-size: 16px;
+}
+/* FOOTER */
+.footer_title
+{
+    font-size: 18px;
+}
+.footer_container
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+}
+footer
+{
+    margin-top: 50px;
+    background-color:#D9D9D9;
+    height: 225px;
+}
+.ul_footer
+{
+    padding-left: 0;
+    display:flex;
+    flex-direction: column;
+}
+.li_footer
+{
+    padding-bottom: 10px;
 }
