@@ -150,6 +150,9 @@ body
     border-radius: 20px;
     padding: 0 30px;
     height: 625px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .container_card
 {
@@ -173,10 +176,7 @@ body
 /* SECTION HEBERGEMENTS */
 .hebergements_cards
 {
-    width: 850px;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    width: 60%;
 }
 .marseille_cards
 {
@@ -218,11 +218,7 @@ body
 /* SECTION LES PLUS POPULAIRES */
 .most_popular_cards
 {
-    width: 390px;
-    display:flex;
-    flex-direction:column;
-    justify-content: space-evenly;
-    height: 625px;
+    width: 30%;
 }
 .most_popular_title
 {
@@ -230,15 +226,17 @@ body
     align-items: center;
     justify-content: space-between;
 }
-.title_popular
+.most_popular_card
 {
-    margin-bottom: 0;
+     display:flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     height: 100%;
 }
 .icon_most_popular
 {
     color: #0065FC;
     width: 18px; 
-    display:flex;
 }
 .img_popular
 {
@@ -254,6 +252,13 @@ body
     padding:5px;
     display:flex;
     cursor:pointer;
+}
+.container_card_popular
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0 0 10px;
 }
 /* HOVER CARDS */
 .card_popular:hover, .card_marseille:hover
