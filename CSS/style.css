@@ -123,9 +123,9 @@ body
     background-color: #DEEBFF;
 }
 .first_ul_filters
-    {
-        margin-left: 10px;
-    }
+{
+    margin-left: 10px;
+}
 .font_filters
 {
     font-size: 17px;
@@ -152,6 +152,7 @@ body
     display:flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 20px;
 }
 .all_cards
 {
@@ -170,6 +171,7 @@ body
 .title
 {
     font-size: 22px;
+    margin:0;
 }
 /* ETOILES */
 .star 
@@ -191,6 +193,10 @@ body
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
+}
+.marseille_title
+{
+    padding: 20px 0;
 }
 .card_marseille
 {
@@ -233,6 +239,7 @@ body
     display:flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 30px;
 }
 .most_popular_card
 {
@@ -269,7 +276,7 @@ body
     padding: 5px 0 0 10px;
 }
 /* HOVER CARDS */
-.card_popular:hover, .card_marseille:hover
+.card_popular:hover, .card_marseille:hover, .card_activity:hover
 {
     transform: scale(1.01);
 }
@@ -339,6 +346,12 @@ footer
 /* MEDIA QUERIES TABLETTE */
 @media screen and (max-width: 992px)
 {
+    /* GENERAL */
+    body 
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
     /* LES DEUX GRANDES SECTIONS */
     #hebergements
     {
@@ -346,7 +359,7 @@ footer
         align-items: center;
         height: 950px;
         width: 98%;
-        margin: auto;
+        margin: 20px auto auto auto;
     }
     .all_cards
     {
@@ -366,6 +379,10 @@ footer
     {
         width: 29%
     }
+    .most_popular_title
+    {
+        padding-top:0;
+    }
     /* ACTIVITY */
     .img_activity
     {
@@ -384,7 +401,9 @@ footer
     /* FILTRES */
     .list_filters
     {
-        margin-right: 10px;
+        margin-right:10px;
+        padding-left: 8px;
+        padding-right: 7px;
     }
 }
 /* MEDIA QUERIES PORTABLE */
@@ -434,6 +453,11 @@ footer
         justify-content: center;
     }
     /* BOX RESEARCH */
+    #rechercher
+    {
+        width: 90%;
+        margin: 50px auto 20px auto;
+    }
     .button_research
     {
         display: none;
@@ -447,6 +471,10 @@ footer
         border-radius: 0px 15px 15px 0px;
         border: 1px solid #0065FC;
         width: 49px;
+    }
+    .research_bar
+    {
+        width: 65%;
     }
     .icon_search
     {
@@ -472,7 +500,7 @@ footer
     }
     .list_filters
     {
-        width: 140px;
+        width: 35%;
         height: 30px;
         margin: 0;
     }
@@ -502,9 +530,14 @@ footer
         padding: 0;
         width: 90%;
     }
+    .marseille_title
+    {
+        padding-bottom: 30px;
+    }
     .most_popular_cards
     {
         height: auto;
+        padding-top: 30px;
     }
     .most_popular_card
     {
@@ -529,7 +562,7 @@ footer
     .card_marseille
     {
         height: 199px;
-        width: 100%;
+        width: 97%;
         box-shadow: 0px 3px 15px 1px #8A8A8A;
     }
     .afficher_plus
@@ -540,7 +573,7 @@ footer
     #activity
     {
         width: 90%;
-        margin:auto;
+        margin:50px auto auto auto;
     }
     .activity_cards
     {
