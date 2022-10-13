@@ -22,22 +22,22 @@ body
     align-items:center;
     justify-content: space-between;
 }
-.logo_booki
+.logo-booki
 {
     width: 61.09px;
     height: 19px;
 }
-.ul_navbar
+.ul-navbar
 {
     display:flex;
     justify-content: space-between;
 }
-.nav_link
+.nav-link
 {
     font-size: 16px;
     padding: 57px 30px 0;
 }
-.nav_link:hover
+.nav-link:hover
 {
     color:#0065FC;
     border-top: 3px solid #0065FC;
@@ -48,7 +48,7 @@ body
     margin-top: 50px;
 }
 /* BOX RESEARCH */
-.research_box, .location
+.research-box, .location
 {
     display:flex;
 }
@@ -63,20 +63,20 @@ body
     border-radius: 15px 0px 0px 15px;
     cursor:pointer;
 }
-.research_bar
+.research-bar
 {
     height: 47px;
     border: 1px solid #F2F2F2;
     padding-left: 16px;
     width: 282px;
 }
-.research_bar::placeholder
+.research-bar::placeholder
 {
     color:black;
     font-size: 18px;
     font-weight: bold;
 }
-.button_research
+.button-research
 {
     height: 50px;
     cursor: pointer;
@@ -87,28 +87,28 @@ body
     width: 132px;
     border: 1px solid #0065FC;
 }
-.button_search_mobile
+.button-search-mobile
 {
     display:none;
 }
 /* FILTERS */
-.filters
+#filters
 {
     display:flex;
     align-items:center;
     margin-top: 20px;
 }
-.container_ul_filters 
+.container-ul-filters 
 {
     display:flex;
     margin-left: 20px;
 }
-.ul_filters
+.ul-filters
 {
     display:flex;
     padding-left: 0;
 }
-.list_filters
+.list-filters
 {
     margin-right: 30px;
     display:flex;
@@ -118,38 +118,38 @@ body
     padding: 10px 15px;
     border: 2px solid #D9D9D9;
 }
-.list_filters:hover
+.list-filters:hover
 {
     background-color: #DEEBFF;
 }
-.font_filters
+.font-filters
 {
     font-size: 17px;
     font-weight: 700;
 }
-.icon_filters
+.icon-filters
 {
     padding-right: 10px;
     color:#0065FC;
 }
-.add_info
+.add-info
 {
     display:flex;
     align-items: center;
 }
-.icon_add_info
+.icon-add-info
 {
     color: #0065FC;
     margin-right: 10px;
 }
 /* TWO MAIN SECTIONS  */
-#two_large_sections
+#two-large-sections
 {
     display:flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.all_cards
+.all-cards
 {
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -159,23 +159,23 @@ body
     flex-direction: column;
     justify-content: space-evenly;
 }
-.big_titles
+.big-titles
 {
     font-size: 22px;
     margin:0;
 }
-.popular_card, .card_marseille
+.popular-card, .card-marseille
 {
     border-radius: 20px;
     background-color: white;
     padding:5px;
     cursor:pointer;
 }
-.container_card
+.container-card
 {
     padding: 0 5px 5px 5px;
 }
-.img_accomodation, .img_popular, .img_activity
+.img-accomodation, .img-popular, .img-activity
 {
     object-fit: cover;
 }
@@ -185,7 +185,7 @@ body
     font-size: 12px;
     color:#0065FC;
 }
-.empty_star
+.empty-star
 {
     color:#F2F2F2
 }
@@ -195,83 +195,83 @@ body
     margin: 0 0 5px;
 }
 /* HOVER CARDS */
-.popular_card:hover, .card_marseille:hover, .card_activity:hover
+.popular-card:hover, .card-marseille:hover, .card-activity:hover
 {
     transform: scale(1.01);
 }
 /* ACCOMODATION SECTION  */
-.accomodation_cards
+.accomodation-cards
 {
     width: 54%;
 }
-.accomodation_cards_container
+.accomodation-cards-container
 {
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
 }
-.accomodation_title
+.accomodation-title
 {
     padding: 20px 0;
 }
-.card_marseille
+.card-marseille
 {
     margin-bottom: 25px;
     width: 30%;
 }
-.img_accomodation
+.img-accomodation
 {
     height: 124px;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
 }
-.title_card
+.title-card
 {
     font-size: 16px;
     margin: 5px 0;
 }
-.show_more
+.show-more
 {
     margin-top: 0;
     margin-bottom: 25px;
 }
 /* MOST POPULAR SECTION */
-.most_popular_card_container
+.most-popular-card-container
 {
      display:flex;
      flex-direction: column;
      justify-content: space-evenly;
      height: 100%;
 }
-.most_popular_cards
+.most-popular-cards
 {
     width: 31%;
 }
-.popular_card
+.popular-card
 {
     display:flex;
 }
-.container_popular_card
+.container-popular-card
 {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 5px 0 0 10px;
 }
-.img_popular
+.img-popular
 {
     height: 144px;
     width: 36%;
     border-radius: 20px 0px 0px 20px;
 }
-.most_popular_title
+.most-popular-title
 {
     display:flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
 }
-.icon_most_popular
+.icon-most-popular
 {
     color: #0065FC;
     width: 18px; 
@@ -281,31 +281,31 @@ body
 {
     margin-top: 60px;
 }
-.activity_cards
+.activity-cards
 {
     display:flex;
     justify-content: space-between;
     margin-top: 20px;
 }
-.card_activity
+.card-activity
 {
    width: 23%;
    border-radius: 20px;
    box-shadow: 0px 3px 15px 1px #8A8A8A;
    cursor: pointer;
 }
-.img_activity
+.img-activity
 {
     height: 389px;
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
-.container_title_activity
+.container-title-activity
 {
     display:flex;
     margin-left: 20px;
 }
-.title_activity
+.title-activity
 {
     font-size: 16px;
 }
@@ -316,7 +316,7 @@ footer
     background-color:#F2F2F2;
     height: 225px;
 }
-.footer_container
+.footer-container
 {
     display:flex;
     justify-content: space-around;
@@ -324,17 +324,17 @@ footer
     width: 85%;
     height: 100%;
 }
-.ul_footer
+.ul-footer
 {
     padding-left: 0;
     display:flex;
     flex-direction: column;
 }
-.li_footer
+.li-footer
 {
     padding-bottom: 10px;
 }
-.footer_title
+.footer-title
 {
     font-size: 18px;
 }
@@ -348,54 +348,54 @@ footer
         padding-right: 5%;
     }
     /* FILTERS */
-    .list_filters
+    .list-filters
     {
         margin-right:7px;
         padding-left: 8px;
         padding-right: 7px;
     }
     /* TWO MAIN SECTIONS */
-    #two_large_sections
+    #two-large-sections
     {
         flex-direction: column;
         align-items: center;
         height: 950px;
         margin: 20px auto auto auto;
     }
-    .all_cards
+    .all-cards
     {
         width: 95%;
     }
     /* MOST POPULAR SECTION  */
-    .most_popular_cards
+    .most-popular-cards
     {
         height: 278px;
         padding-bottom: 20px;
     }
-    .most_popular_card_container
+    .most-popular-card-container
     {
         flex-direction: row;
         height: auto;
     }
-    .popular_card
+    .popular-card
     {
         width: 29%
     }
-    .most_popular_title
+    .most-popular-title
     {
         padding-top:0;
     }
     /* SECTION ACTIVITY */
-    .card_activity
+    .card-activity
     {
         width: 21%;
     }
-    .img_activity
+    .img-activity
     {
         height: 211px;
     }
     /* FOOTER */
-    .footer_container
+    .footer-container
     {
         width: auto;
         justify-content: space-evenly;
@@ -414,7 +414,7 @@ footer
     {
         flex-direction: column;
     }
-    .ul_navbar
+    .ul-navbar
     {
         padding-left: 0;
         justify-content: space-evenly;
@@ -423,7 +423,7 @@ footer
     {
         width: 100%;
     }
-    .nav_link
+    .nav-link
     {
         padding: 0 0 20px 0;
         display:flex;
@@ -431,18 +431,18 @@ footer
         width: 100%;
         border-bottom: 3px solid #F2F2F2;
     }
-    .nav_link:hover
+    .nav-link:hover
     {
         border-top:none;
         border-bottom: 3px solid #0065FC;
     }
-    .li_navbar
+    .li-navbar
     {
         display:flex;
         width: 100%;
         justify-content: center;
     }
-    .underline_blue
+    .underline-blue
     {
         border-bottom:3px solid #0065FC;
         color:#0065FC;
@@ -454,15 +454,15 @@ footer
         margin: 50px auto 20px auto;
     }
     /* BOX RESEARCH */
-    .research_bar
+    .research-bar
     {
         width: 65%;
     }
-    .button_research
+    .button-research
     {
         display: none;
     }
-    .button_search_mobile
+    .button-search-mobile
     {
         display:flex;
         align-items: center;
@@ -472,55 +472,55 @@ footer
         border: 1px solid #0065FC;
         width: 49px;
     }
-    .icon_search
+    .icon-search
     {
         color:white;
     }
     /* FILTERS */
-    .filters
+    #filters
     {
         flex-direction: column;
         align-items: flex-start;
     }
-    .container_ul_filters
+    .container-ul-filters
     {
         flex-direction: column;
         width: 100%;
         margin-left: 0;
     }
-    .ul_filters
+    .ul-filters
     {
         justify-content: space-evenly;
     }
-    .list_filters
+    .list-filters
     {
         width: 150px;
         height: 30px;
     }
-    .font_filters
+    .font-filters
     {
         font-size: 14px
     }
-    .icon_filters
+    .icon-filters
     {
         padding-right: 5px;
     }
     /* TWO MAIN SECTIONS */
-    #two_large_sections
+    #two-large-sections
     {
         flex-direction: column-reverse;
         justify-content: space-between;
         height: auto;
         width: auto;
     }
-    .all_cards
+    .all-cards
     {
         border-radius: 0;
         width: 100%;
         padding: 0;
     }
     /* ACCOMODATION SECTION  */
-    .accomodation_cards
+    .accomodation-cards
     {
         background-color:white;
         height: 100%;
@@ -528,43 +528,43 @@ footer
         padding: 0;
         width: 90%;
     }
-    .accomodation_title
+    .accomodation-title
     {
         padding-bottom: 30px;
     }
-    .accomodation_cards_container
+    .accomodation-cards-container
     {
         flex-direction: column;
         align-items: center;
     }
-    .card_marseille
+    .card-marseille
     {
         height: 199px;
         width: 97%;
         box-shadow: 0px 3px 15px 1px #8A8A8A;
     }
-    .show_more
+    .show-more
     {
         display:none;
     }
     /* MOST POPULAR SECTION  */
-    .most_popular_cards
+    .most-popular-cards
     {
         height: auto;
         padding-top: 30px;
     }
-    .most_popular_title
+    .most-popular-title
     {
         width: 90%;
         margin:auto;
     }
-    .most_popular_card_container
+    .most-popular-card-container
     {
         flex-direction: column;
         align-items: center;
         height: 585px;
     }
-    .popular_card
+    .popular-card
     {
         width: 90%;
     }
@@ -574,17 +574,17 @@ footer
         width: 90%;
         margin:50px auto auto auto;
     }
-    .activity_cards
+    .activity-cards
     {
         flex-direction: column;
     }
-    .card_activity
+    .card-activity
     {
         width: 100%;
         margin-bottom: 30px;
     }
     /* FOOTER */
-    .footer_container
+    .footer-container
     {
         flex-direction: column;
         height: auto;
