@@ -13,7 +13,7 @@ body
     max-width: 1400px;
     margin: 0 auto;
     padding: 44px 3% 0 3%;
-    font-family: "Raleway"; 
+    font-family: "Raleway", sans-serif; 
 }
 /* HEADER */
 .navbar 
