@@ -102,15 +102,16 @@ body
 {
     display:flex;
     margin-left: 20px;
+    gap: 30px;
 }
 .ul-filters
 {
     display:flex;
     padding-left: 0;
+    gap: 30px;
 }
 .list-filters
 {
-    margin-right: 30px;
     display:flex;
     align-items: center;
     cursor: pointer;
@@ -348,9 +349,17 @@ footer
         padding-right: 5%;
     }
     /* FILTERS */
+    .container-ul-filters
+    {
+        gap: 10px;
+    }
+    .ul-filters
+    {
+        gap: 10px;
+    }
     .list-filters
     {
-        margin-right:7px;
+        margin-right: 0;
         padding-left: 8px;
         padding-right: 7px;
     }
