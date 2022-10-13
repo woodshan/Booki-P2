@@ -97,11 +97,11 @@ body
     display:flex;
     align-items:center;
     margin-top: 20px;
+    gap: 20px;
 }
 .container-ul-filters 
 {
     display:flex;
-    margin-left: 20px;
     gap: 30px;
 }
 .ul-filters
@@ -359,7 +359,6 @@ footer
     }
     .list-filters
     {
-        margin-right: 0;
         padding-left: 8px;
         padding-right: 7px;
     }
@@ -495,7 +494,6 @@ footer
     {
         flex-direction: column;
         width: 100%;
-        margin-left: 0;
     }
     .ul-filters
     {
