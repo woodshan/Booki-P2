@@ -377,10 +377,6 @@ footer {
         width: 100%;
         justify-content: center;
     }
-    .underline-blue {
-        border-bottom:3px solid #0065FC;
-        color:#0065FC;
-    }
     /* RESEARCH SECTION */
     #research {
         width: 90%;
